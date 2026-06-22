@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Metro Sul favicon">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="28%" r="80%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="28%" stop-color="#38d9ff"/>
+      <stop offset="58%" stop-color="#101a42"/>
+      <stop offset="100%" stop-color="#ff4b17"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="#050713"/>
+  <circle cx="64" cy="64" r="44" fill="url(#g)" filter="url(#glow)"/>
+  <path d="M26 74c20-24 52-24 76 0" fill="none" stroke="#f4f7ff" stroke-width="4" stroke-linecap="round" opacity=".72"/>
+  <text x="64" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="30" letter-spacing="-3" fill="#050713">MS</text>
+</svg>
