@@ -3,26 +3,30 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Metro Sul — Electronic Music / Gravity, Motion & Nocturnal Signal</title>
-  <meta name="description" content="Metro Sul is an independent cinematic electronic music project exploring gravity, orbital tension, urban pulse, time pressure and emotional velocity. Listen to Beyond Gravity and VOLTA CHRONOS & KAIROS." />
-  <meta name="theme-color" content="#050713" />
+  <title>Metro Sul — Electronic Music for Urban Time</title>
+  <meta name="description" content="Metro Sul turns the modern urban cycle into electronic music: Chronos pressure, transit, nocturnal release, Kairos suspension, after-hours distortion and the quiet return after dawn. Listen to Beyond Gravity and VOLTA CHRONOS & KAIROS." />
+  <meta name="theme-color" content="#03050A" />
   <meta name="robots" content="index, follow" />
   <meta property="og:title" content="Metro Sul — Independent Electronic Music Project" />
-  <meta property="og:description" content="Beyond Gravity and VOLTA CHRONOS & KAIROS — electronic music built from nocturnal signals, orbital tension and cinematic velocity." />
+  <meta property="og:description" content="Electronic music for the pressure, escape and return of urban time — from Chronos to Kairos, from the workday clock to the nocturnal pulse." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="./assets/beyondgravity.png" />
+  <meta property="og:url" content="https://www.metrosulofficial.com" />
+  <meta property="og:image" content="https://www.metrosulofficial.com/assets/metrosullogo.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Metro Sul — Electronic Music" />
+  <meta name="twitter:description" content="Metro Sul transforms urban time pressure into electronic motion — Chronos, transit, Kairos, after-hours and return." />
+  <link rel="canonical" href="https://www.metrosulofficial.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Syncopate:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="./styles.css" />
 
-  <!-- Analytics configuration
-    Replace these placeholders with your real IDs before publishing:
-    Google Analytics Measurement ID format: G-XXXXXXXXXX
-    Meta Pixel ID format: numeric ID, for example 123456789012345
-    The scripts only load when valid IDs are inserted.
+  <!--
+    Metro Sul tracking configuration.
+    Replace placeholders before publishing or after creating the GA4 and Meta Pixel IDs.
+    Google Analytics Measurement ID example: G-XXXXXXXXXX
+    Meta Pixel ID example: 123456789012345
   -->
   <script>
     window.METRO_SUL_TRACKING = {
@@ -32,94 +36,87 @@
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#music">Skip to releases</a>
-  <canvas id="signalCanvas" aria-hidden="true"></canvas>
-  <div class="site-noise" aria-hidden="true"></div>
-  <div class="grid-veil" aria-hidden="true"></div>
-  <div class="cursor-orb" aria-hidden="true"></div>
+  <a class="skip-link" href="#releases">Skip to releases</a>
+  <canvas id="energyCanvas" aria-hidden="true"></canvas>
+  <div class="cosmic-noise" aria-hidden="true"></div>
+  <div class="scan-grid" aria-hidden="true"></div>
+  <div class="mouse-field" aria-hidden="true"></div>
 
   <header class="topbar" data-reveal>
-    <a href="#top" class="brand-mark" aria-label="Metro Sul home">
-      <span class="brand-symbol">MS</span>
-      <span class="brand-name">Metro Sul</span>
+    <a class="brand" href="#top" aria-label="Metro Sul home">
+      <img src="./assets/metrosullogo.jpg" alt="Metro Sul logo" />
+      <span><strong>Metro Sul</strong><small>Chronos / Kairos / Urban Electronic</small></span>
     </a>
-    <nav class="nav-links" aria-label="Primary navigation">
-      <a href="#music">Releases</a>
-      <a href="#project">About</a>
-      <a href="#architecture">Signal</a>
-      <a href="#social">Contact</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#releases">Releases</a>
+      <a href="#project">Project</a>
+      <a href="#architecture">Cycle</a>
+      <a href="#transmission">Contact</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-shell">
-        <div class="hero-copy" data-reveal>
-          <p class="kicker">Metro Sul / southern frequency / independent electronic</p>
-          <h1 id="hero-title" aria-label="Metro Sul"><span>Metro</span><span>Sul</span></h1>
-          <p class="hero-statement">Electronic music shaped by gravity, motion, and nocturnal signal.</p>
-          <p class="hero-subcopy">A cinematic electronic project exploring orbital tension, urban pulse, time pressure, and emotional velocity.</p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary magnetic" href="https://open.spotify.com/intl-pt/artist/4i7BYCbelBwv59mLCJ0pgk?si=x0QEqN5kTFyPz3Q-obYBBg" target="_blank" rel="noreferrer">Listen on Spotify</a>
-            <a class="button ghost magnetic" href="#music">Explore Releases</a>
-          </div>
+    <section class="hero aperture" aria-labelledby="hero-title">
+      <div class="hero-copy" data-reveal>
+        <p class="kicker">Independent electronic music / urban time cycle</p>
+        <h1 id="hero-title">Metro Sul</h1>
+        <p class="hero-line">Electronic music for the pressure, escape, and return of urban time.</p>
+        <p class="hero-text">Metro Sul turns the modern city cycle into sound — from mechanical workday pressure to nocturnal release, suspended time, and the quiet return after dawn.</p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button primary magnetic" href="https://open.spotify.com/intl-pt/artist/4i7BYCbelBwv59mLCJ0pgk?si=x0QEqN5kTFyPz3Q-obYBBg" target="_blank" rel="noreferrer">Listen on Spotify</a>
+          <a class="button secondary magnetic" href="#releases">Explore Releases</a>
         </div>
-
-        <aside class="hero-orbit" aria-label="Metro Sul release orbit" data-reveal>
-          <div class="orbit-core" aria-hidden="true"></div>
-          <figure class="cover-card cover-card-a" data-tilt>
-            <img src="./assets/beyondgravity.png" alt="Beyond Gravity by Metro Sul cover artwork" />
-            <figcaption>Beyond Gravity / EP / 2026</figcaption>
-          </figure>
-          <figure class="cover-card cover-card-b" data-tilt>
-            <img src="./assets/volta.png" alt="VOLTA CHRONOS & KAIROS by Metro Sul cover artwork" />
-            <figcaption>VOLTA / 2025</figcaption>
-          </figure>
-          <div class="orbit-label label-north">ORBITAL FIELD</div>
-          <div class="orbit-label label-south">CHRONOS + KAIROS</div>
-        </aside>
       </div>
 
-      <div class="telemetry-bar" data-reveal aria-label="Metro Sul project telemetry">
-        <span><strong>Latest EP</strong> Beyond Gravity</span>
-        <span><strong>Album</strong> VOLTA CHRONOS &amp; KAIROS</span>
-        <span><strong>Signal</strong> @METROSULOFFICIAL</span>
-        <span><strong>Contact</strong> brunocorreagomes@gmail.com</span>
-      </div>
-    </section>
+      <aside class="hero-emblem" aria-label="Metro Sul orbital identity" data-reveal>
+        <div class="emblem-stage" data-tilt>
+          <div class="ring ring-blue" aria-hidden="true"></div>
+          <div class="ring ring-orange" aria-hidden="true"></div>
+          <div class="ring ring-white" aria-hidden="true"></div>
+          <img class="logo-core" src="./assets/metrosullogo.jpg" alt="Metro Sul official logo" />
+          <div class="spark spark-a" aria-hidden="true"></div>
+          <div class="spark spark-b" aria-hidden="true"></div>
+          <div class="orbit-note note-a">BLUE GRAVITY</div>
+          <div class="orbit-note note-b">ORANGE COMBUSTION</div>
+        </div>
+      </aside>
 
-    <section class="kinetic-strip" aria-label="Metro Sul sonic fragments">
-      <div class="kinetic-track">
-        <span>BEYOND GRAVITY</span><span>WAKE THE EARTH</span><span>BLUE HOUR</span><span>VOLTA</span><span>NEON PRESSURE</span><span>TRANSIT</span><span>OUT OF MY HEAD</span><span>KAIROS</span>
-        <span>BEYOND GRAVITY</span><span>WAKE THE EARTH</span><span>BLUE HOUR</span><span>VOLTA</span><span>NEON PRESSURE</span><span>TRANSIT</span><span>OUT OF MY HEAD</span><span>KAIROS</span>
+      <div class="telemetry" data-reveal aria-label="Metro Sul overview">
+        <span><small>Core concept</small><strong>Chronos → Kairos</strong></span>
+        <span><small>Album</small><strong>VOLTA Chronos &amp; Kairos</strong></span>
+        <span><small>Sound</small><strong>Urban pressure / nocturnal release</strong></span>
+        <span><small>Contact</small><strong>brunocorreagomes@gmail.com</strong></span>
       </div>
     </section>
 
-    <section id="music" class="section-shell music-section" aria-labelledby="music-title">
-      <div class="section-heading stagger" data-reveal>
-        <p class="eyebrow">Signal 01 / release archive</p>
-        <h2 id="music-title">Two records inside one unstable field.</h2>
-        <p>A release archive built like a sonic observatory: cosmic rupture above, nocturnal urban pressure below.</p>
+    <section class="signal-marquee" aria-label="Metro Sul signal fragments">
+      <div>
+        <span>CHRONOS</span><span>PRESSURE</span><span>TRANSIT</span><span>VOLTA</span><span>KAIROS</span><span>AFTER-HOURS</span><span>BLUE HOUR</span><span>RETURN</span>
+        <span>CHRONOS</span><span>PRESSURE</span><span>TRANSIT</span><span>VOLTA</span><span>KAIROS</span><span>AFTER-HOURS</span><span>BLUE HOUR</span><span>RETURN</span>
+      </div>
+    </section>
+
+    <section id="releases" class="section releases" aria-labelledby="releases-title">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Signal 01 / Release archive</p>
+        <h2 id="releases-title">Two records inside one charged urban cycle.</h2>
+        <p>Beyond Gravity expands upward like plasma. VOLTA defines the project's sonic philosophy: clock pressure, city transit, nocturnal release, after-hours distortion and return.</p>
       </div>
 
-      <div class="release-stack">
-        <article class="release-panel release-beyond" data-reveal>
-          <div class="release-media">
-            <div class="cover-shell" data-tilt>
-              <img src="./assets/beyondgravity.png" alt="Beyond Gravity by Metro Sul official cover" />
+      <div class="release-grid">
+        <article class="release-card beyond" data-reveal>
+          <div class="release-visual">
+            <div class="cover-frame" data-tilt>
+              <img src="./assets/beyondgravity.png" alt="Beyond Gravity by Metro Sul official cover artwork" />
             </div>
-            <div class="release-code" aria-hidden="true">
-              <span>BG-2026</span>
-              <span>22:31</span>
-              <span>VERTICAL ENERGY</span>
-            </div>
+            <div class="energy-badge">BG-2026 / Vertical rupture / 22:31</div>
           </div>
 
-          <div class="release-info">
+          <div class="release-main">
             <p class="album-label">EP / cyber-organic electronic</p>
             <h3>Beyond Gravity</h3>
-            <p class="release-copy">An expansive electronic EP built around vertical energy, gravity rupture, earth pressure, blue plasma, orange internal heat, and emotional release.</p>
-            <dl class="meta-grid" aria-label="Beyond Gravity release metadata">
+            <p class="release-copy">An expansive electronic EP where earth pressure turns into vertical release — blue plasma, orange internal heat, rupture, motion and emotional lift.</p>
+            <dl class="meta-grid">
               <div><dt>Artist</dt><dd>Metro Sul</dd></div>
               <div><dt>Type</dt><dd>EP</dd></div>
               <div><dt>Year</dt><dd>2026</dd></div>
@@ -129,7 +126,7 @@
             </dl>
           </div>
 
-          <div class="release-archive-panel">
+          <div class="archive-module">
             <details class="track-archive" open>
               <summary>Track archive</summary>
               <ol class="tracklist">
@@ -139,29 +136,25 @@
                 <li><span>Out Of My Head</span><time>6:57</time></li>
               </ol>
             </details>
-            <a class="button compact magnetic" href="https://open.spotify.com/intl-pt/album/3F10JFx7wrz3scGyBUY3ES?si=_f2DL9DzT0eEyq1szK-q8g" target="_blank" rel="noreferrer">Open on Spotify</a>
+            <a class="button small magnetic" href="https://open.spotify.com/intl-pt/album/3F10JFx7wrz3scGyBUY3ES?si=_f2DL9DzT0eEyq1szK-q8g" target="_blank" rel="noreferrer">Open on Spotify</a>
           </div>
 
-          <iframe class="spotify-frame" title="Beyond Gravity Spotify player" src="https://open.spotify.com/embed/album/3F10JFx7wrz3scGyBUY3ES?utm_source=generator&theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe class="spotify" title="Beyond Gravity Spotify player" src="https://open.spotify.com/embed/album/3F10JFx7wrz3scGyBUY3ES?utm_source=generator&theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </article>
 
-        <article class="release-panel release-volta" data-reveal>
-          <div class="release-media">
-            <div class="cover-shell" data-tilt>
-              <img src="./assets/volta.png" alt="VOLTA CHRONOS & KAIROS by Metro Sul official cover" />
+        <article class="release-card volta" data-reveal>
+          <div class="release-visual">
+            <div class="cover-frame" data-tilt>
+              <img src="./assets/volta.png" alt="VOLTA CHRONOS & KAIROS by Metro Sul official cover artwork" />
             </div>
-            <div class="release-code" aria-hidden="true">
-              <span>VOLTA-2025</span>
-              <span>36:03</span>
-              <span>URBAN TIME LOOP</span>
-            </div>
+            <div class="energy-badge">VOLTA-2025 / Urban time loop / 36:03</div>
           </div>
 
-          <div class="release-info">
-            <p class="album-label">Album / kinetic electronic</p>
+          <div class="release-main">
+            <p class="album-label">Album / urban time study</p>
             <h3>VOLTA <span>CHRONOS &amp; KAIROS</span></h3>
-            <p class="release-copy">A nocturnal electronic album about pressure, transit, timing, repetition, blue/orange voltage, and the emotional architecture of urban movement.</p>
-            <dl class="meta-grid" aria-label="VOLTA CHRONOS & KAIROS release metadata">
+            <p class="release-copy">A nocturnal electronic album about the modern urban cycle: the rigid pressure of the workday, the escape through transit, the immersion of the dance floor, the distortion of the after-hours, and the soft melancholy of returning to normal life.</p>
+            <dl class="meta-grid compact-meta">
               <div><dt>Artist</dt><dd>Metro Sul</dd></div>
               <div><dt>Type</dt><dd>Album</dd></div>
               <div><dt>Year</dt><dd>2025</dd></div>
@@ -169,100 +162,85 @@
             </dl>
           </div>
 
-          <div class="release-archive-panel">
+          <div class="archive-module">
             <details class="track-archive" open>
               <summary>Track archive</summary>
-              <ol class="tracklist tall">
-                <li><span>Pressure (9 to 5)</span><time>3:04</time></li>
-                <li><span>Transit</span><time>2:34</time></li>
-                <li><span>Velvet Rope</span><time>3:22</time></li>
-                <li><span>Ignition</span><time>2:56</time></li>
-                <li><span>Syncopate</span><time>2:24</time></li>
-                <li><span>Kairos (The Moment)</span><time>3:24</time></li>
-                <li><span>Chemistry</span><time>2:33</time></li>
-                <li><span>Smoke &amp; Mirrors (Interlude)</span><time>1:38</time></li>
-                <li><span>Second Wind</span><time>2:16</time></li>
-                <li><span>Echoes in the Hall</span><time>2:59</time></li>
-                <li><span>Blue Hour</span><time>3:11</time></li>
-                <li><span>Taxi (The Ride Home)</span><time>1:38</time></li>
-                <li><span>Afters (Apartment 4B)</span><time>1:42</time></li>
-                <li><span>Sunday Morning</span><time>1:11</time></li>
-                <li><span>Cycle (Outro)</span><time>1:23</time></li>
+              <ol class="tracklist tall story-tracklist">
+                <li><span class="track-info"><strong>Pressure (9 to 5)</strong><em>Dry machine percussion, minimalist anxiety, the wall-clock as antagonist.</em></span><time>3:04</time></li>
+                <li><span class="track-info"><strong>Transit</strong><em>The escape begins: subway acoustics, blurred lights, nervous UK Garage swing.</em></span><time>2:34</time></li>
+                <li><span class="track-info"><strong>Velvet Rope</strong><em>Nu-Disco sophistication, heavy bass lines, whispered vocal fragments and anticipation.</em></span><time>3:22</time></li>
+                <li><span class="track-info"><strong>Ignition</strong><em>Piano House euphoria: the individual dissolves into collective movement.</em></span><time>2:56</time></li>
+                <li><span class="track-info"><strong>Syncopate</strong><em>Hypnotic Tech House where the body counts in measures, not hours.</em></span><time>2:24</time></li>
+                <li><span class="track-info"><strong>Kairos (The Moment)</strong><em>The heart of the album: ethereal progressive synthesis and undefined time.</em></span><time>3:24</time></li>
+                <li><span class="track-info"><strong>Chemistry</strong><em>Sensual Deep House, human magnetism and the present tense under strobe light.</em></span><time>2:33</time></li>
+                <li><span class="track-info"><strong>Smoke &amp; Mirrors (Interlude)</strong><em>Rain, muffled club sound and a pause outside the room.</em></span><time>1:38</time></li>
+                <li><span class="track-info"><strong>Second Wind</strong><em>3 a.m. adrenaline: raw Speed Garage for tired bodies finding voltage again.</em></span><time>2:16</time></li>
+                <li><span class="track-info"><strong>Echoes in the Hall</strong><em>Acid textures and TB-303-like synthesis bending the after-hours into a maze.</em></span><time>2:59</time></li>
+                <li><span class="track-info"><strong>Blue Hour</strong><em>Bright synthesizers imitate first light: hope, clarity and end-of-night melancholy.</em></span><time>3:11</time></li>
+                <li><span class="track-info"><strong>Taxi (The Ride Home)</strong><em>Lo-fi nostalgia and happy exhaustion as the normal city wakes up again.</em></span><time>1:38</time></li>
+                <li><span class="track-info"><strong>Afters (Apartment 4B)</strong><em>Glitchy minimal sounds, slow drag and elastic time without rules.</em></span><time>1:42</time></li>
+                <li><span class="track-info"><strong>Sunday Morning</strong><em>Neo-Soul warmth, physical rest and emotional decompression.</em></span><time>1:11</time></li>
+                <li><span class="track-info"><strong>Cycle (Outro)</strong><em>Soft strings merge with the mechanical beginning: the clock starts again.</em></span><time>1:23</time></li>
               </ol>
             </details>
-            <a class="button compact magnetic" href="https://open.spotify.com/intl-pt/album/316abErdO1WCIfUhM3Tgdb?si=npYQ-1QwTpeaVJIlyzqxAw" target="_blank" rel="noreferrer">Open on Spotify</a>
+            <a class="button small magnetic" href="https://open.spotify.com/intl-pt/album/316abErdO1WCIfUhM3Tgdb?si=npYQ-1QwTpeaVJIlyzqxAw" target="_blank" rel="noreferrer">Open on Spotify</a>
           </div>
 
-          <iframe class="spotify-frame" title="VOLTA CHRONOS & KAIROS Spotify player" src="https://open.spotify.com/embed/album/316abErdO1WCIfUhM3Tgdb?utm_source=generator&theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <iframe class="spotify" title="VOLTA CHRONOS & KAIROS Spotify player" src="https://open.spotify.com/embed/album/316abErdO1WCIfUhM3Tgdb?utm_source=generator&theme=0" width="100%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </article>
       </div>
     </section>
 
-    <section id="project" class="section-shell project-section" aria-labelledby="project-title">
-      <div class="project-panel" data-reveal>
-        <p class="eyebrow">Signal 02 / artist statement</p>
-        <h2 id="project-title">Electronic music moving through the pressure between time and pulse.</h2>
-        <p>Metro Sul moves through nocturnal city energy, gravity fields, late transit, and the emotional residue of motion. The sound is cinematic and physical: synthetic pulse, orbital tension, voltage, memory, and release.</p>
+    <section id="project" class="section project" aria-labelledby="project-title">
+      <div class="statement-panel" data-reveal>
+        <p class="eyebrow">Signal 02 / Artist statement</p>
+        <h2 id="project-title">The clock, the commute, the dance floor, the return.</h2>
+        <p>Metro Sul is an electronic music project built around the urban cycle: pressure, transit, release, immersion and return. Its sound moves between the mechanical discipline of Chronos and the suspended intensity of Kairos — from dry machine rhythms and anxious pulses to deep nocturnal grooves, club atmospheres, blurred city lights and emotional decompression.</p>
       </div>
-      <aside class="transmission-card" data-reveal>
-        <span class="terminal-line">Transmission / MS-04</span>
-        <strong>Southern signal. Vertical motion. Afterimage rhythm.</strong>
-        <p>Built for headphones, night drives, kinetic rooms, and the strange seconds when the city starts to feel weightless.</p>
+      <aside class="terminal-card" data-reveal>
+        <span>Sound coordinates / MS-04</span>
+        <strong>The moment the clock stops controlling the body.</strong>
+        <p>Metro Sul transforms urban time pressure into electronic motion — from the rigidity of the workday to the suspended pulse of the night.</p>
       </aside>
     </section>
 
-    <section id="architecture" class="section-shell architecture-section" aria-labelledby="architecture-title">
-      <div class="section-heading" data-reveal>
-        <p class="eyebrow">Signal 03 / identity system</p>
-        <h2 id="architecture-title">Signal Architecture</h2>
+    <section id="architecture" class="section architecture" aria-labelledby="architecture-title">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Signal 03 / Sonic philosophy</p>
+        <h2 id="architecture-title">The Urban Time Cycle</h2>
       </div>
-      <div class="architecture-grid">
-        <article class="pillar" data-reveal>
-          <span>01</span>
-          <h3>Gravity</h3>
-          <p>The pull beneath the rhythm — weight, tension, and release.</p>
-        </article>
-        <article class="pillar" data-reveal>
-          <span>02</span>
-          <h3>Motion</h3>
-          <p>Transit, acceleration, late-night roads, and bodies moving through signal.</p>
-        </article>
-        <article class="pillar" data-reveal>
-          <span>03</span>
-          <h3>Voltage</h3>
-          <p>Blue plasma, orange heat, synthetic pulse, and emotional electricity.</p>
-        </article>
-        <article class="pillar" data-reveal>
-          <span>04</span>
-          <h3>Memory</h3>
-          <p>Echoes, loops, afterimages, and the architecture of time.</p>
-        </article>
+      <div class="pillar-grid cycle-grid">
+        <article class="pillar" data-reveal><span>01 / CHRONOS</span><h3>Pressure</h3><p>The mechanical clock: work pressure, repetition, deadlines and dry machine rhythm.</p></article>
+        <article class="pillar" data-reveal><span>02 / TRANSIT</span><h3>Escape</h3><p>The route out: subway acoustics, blurred city lights, nervous syncopation and movement.</p></article>
+        <article class="pillar" data-reveal><span>03 / KAIROS</span><h3>Release</h3><p>The suspended moment: dance floor energy, deep frequencies and time losing authority.</p></article>
+        <article class="pillar" data-reveal><span>04 / AFTER-HOURS</span><h3>Distortion</h3><p>Rain, smoke, acid textures, tired bodies and the strange elasticity of the madrugada.</p></article>
+        <article class="pillar" data-reveal><span>05 / RETURN</span><h3>Cycle</h3><p>Blue hour, soft light, lo-fi nostalgia, rest and the clock starting again.</p></article>
       </div>
     </section>
 
-    <section class="section-shell sonic-section" aria-labelledby="sonic-title">
+    <section class="section sonic" aria-labelledby="sonic-title">
       <div class="sonic-panel" data-reveal>
-        <p class="eyebrow">Signal 04 / coordinates</p>
-        <h2 id="sonic-title">Sonic Map</h2>
+        <p class="eyebrow">Signal 04 / Track fragments</p>
+        <h2 id="sonic-title">Chronos / Kairos Map</h2>
         <div class="sonic-map" aria-label="Selected Metro Sul track coordinates">
-          <span style="--x:8;--y:22">Wake The Earth</span>
-          <span style="--x:58;--y:10">Break Through</span>
-          <span style="--x:76;--y:35">Out Of My Head</span>
-          <span style="--x:18;--y:58">Pressure (9 to 5)</span>
-          <span style="--x:48;--y:48">Transit</span>
-          <span style="--x:66;--y:72">Velvet Rope</span>
-          <span style="--x:30;--y:80">Kairos (The Moment)</span>
-          <span style="--x:6;--y:78">Blue Hour</span>
-          <span style="--x:82;--y:84">Cycle (Outro)</span>
+          <span style="--x:7;--y:24">Chronos / Pressure</span>
+          <span style="--x:56;--y:12">Transit / Escape</span>
+          <span style="--x:74;--y:34">Velvet Rope / Threshold</span>
+          <span style="--x:14;--y:58">Ignition / Collective Body</span>
+          <span style="--x:47;--y:50">Kairos / The Moment</span>
+          <span style="--x:64;--y:72">Smoke & Mirrors / Pause</span>
+          <span style="--x:28;--y:80">Second Wind / 3 A.M.</span>
+          <span style="--x:5;--y:79">Blue Hour / Return</span>
+          <span style="--x:80;--y:85">Cycle / Clock Reset</span>
         </div>
       </div>
     </section>
 
-    <section id="social" class="section-shell social-section" aria-labelledby="social-title">
-      <div class="section-heading" data-reveal>
-        <p class="eyebrow">Signal 05 / transmission panel</p>
-        <h2 id="social-title">Follow the signal.</h2>
-        <p>Official profiles, streaming link and contact channel for Metro Sul.</p>
+    <section id="transmission" class="section transmission" aria-labelledby="transmission-title">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Signal 05 / Transmission panel</p>
+        <h2 id="transmission-title">Follow the signal.</h2>
+        <p>Official profiles, streaming channel and direct contact for Metro Sul.</p>
       </div>
       <div class="social-grid" data-reveal>
         <a href="https://open.spotify.com/intl-pt/artist/4i7BYCbelBwv59mLCJ0pgk?si=x0QEqN5kTFyPz3Q-obYBBg" target="_blank" rel="noreferrer"><span>Spotify</span><small>artist profile</small></a>
@@ -284,8 +262,10 @@
     "@context": "https://schema.org",
     "@type": "MusicGroup",
     "name": "Metro Sul",
-    "url": "https://open.spotify.com/intl-pt/artist/4i7BYCbelBwv59mLCJ0pgk",
+    "url": "https://www.metrosulofficial.com",
+    "image": "https://www.metrosulofficial.com/assets/metrosullogo.jpg",
     "sameAs": [
+      "https://open.spotify.com/intl-pt/artist/4i7BYCbelBwv59mLCJ0pgk",
       "https://instagram.com/metrosulofficial",
       "https://www.tiktok.com/@metrosulofficial",
       "https://www.youtube.com/@metrosulofficial"

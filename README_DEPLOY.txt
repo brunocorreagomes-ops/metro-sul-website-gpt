@@ -1,16 +1,15 @@
-METRO SUL — GITHUB PAGES DEPLOY
+METRO SUL — DEPLOY NOTES
 
-1. Extract this ZIP.
-2. Upload all extracted files to the root of your GitHub repository.
-3. Do not upload the ZIP itself.
-4. In GitHub, open Settings > Pages.
-5. Select Deploy from a branch.
-6. Select branch main and folder /root.
-7. Save.
-
-Before publishing with analytics:
-- Open index.html.
-- Replace G-XXXXXXXXXX with your Google Analytics Measurement ID.
-- Replace 000000000000000 with your Meta Pixel ID.
-
-If you do not replace the IDs, the website still works normally, but analytics and pixel tracking stay inactive.
+1. Upload the extracted files to the root of the GitHub repository.
+2. Keep the file named CNAME with this exact content:
+   www.metrosulofficial.com
+3. In GitHub: Settings > Pages > Deploy from a branch > main > /root.
+4. In Hostinger DNS:
+   A       @       185.199.108.153
+   A       @       185.199.109.153
+   A       @       185.199.110.153
+   A       @       185.199.111.153
+   CNAME   www     YOUR-GITHUB-USERNAME.github.io
+5. Wait for DNS propagation.
+6. In GitHub Pages, enable Enforce HTTPS when available.
+7. Replace Google Analytics and Meta Pixel placeholders in index.html when you have the real IDs.
